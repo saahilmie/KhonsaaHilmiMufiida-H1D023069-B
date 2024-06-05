@@ -1,0 +1,47 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+typedef struct Node *address;
+typedef struct Mahasiswa {
+    int NIM;
+    char nama[50];
+    float IPK;
+}Mahasiswa;
+
+void insertafter(NIM, nama, IPK){
+    if(NIM==tmp){
+        
+        printf();
+    }
+}
+
+void deleteafter(NIM, nama,IPK){
+    if(NIM!=tmp){
+        
+        printf();
+    }
+}
+
+void cetak(){
+    while(NIM){
+        
+    }
+}
+
+int main()
+{
+    insertafter (H1D023130, &NIM);
+    insertafter (H1D023128, &NIM);
+    insertafter (H1DO23131, &NIM);
+    insertafter (Syafa, &nama);
+    insertafter (Hanif, &nama);
+    insertafter (Sherly, &nama);
+    insertafter (3.5, &IPK);
+    insertafter (3.35, &IPK);
+    insertafter (3.4, &IPK);
+    deleteafter (H1D023131, Sherly, 3.4);
+    deleteafter (H1D023130, Syafa, 3.5);
+    cetak();
+
+    return 0;
+}
